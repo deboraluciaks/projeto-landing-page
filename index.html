@@ -22,6 +22,7 @@
             <img class="img-principal" src="principal.png">
             <h1 class="titulo-principal">Proteção simples para <br>o seu dia a dia.</h1>
             <p class="p-principal">Cansado de processos cheios de burocracia? Aqui na 4SAFE SEGUROS garantimos sua satisfação em poucos passos, onde a tecnologia é a chave para fornecer soluções de seguros inovadoras e eficientes para nossos clientes. Faça ja seu orçamento!</p>
+            <a id="botão-banner">Clique aqui</a>
         </div>
 
         <div class="seguro-vida">
@@ -37,19 +38,20 @@
 
         <div class="formulario">
             <h1>Entre em contato conosco!</h1>
-            <form action="#">
+            <form action="#" id="form">
                 <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome">
+                <input type="text" name="nome" id="nome" required>
 
                 <label for="e-mail">E-mail</label>
-                <input type="email" name="email" id="e-mail">
+                <input type="email" name="email" id="email" required>
 
                 <label for="celular">Telefone</label>
-                <input type="tel" name="celular" id="celular">
+                <input type="tel" name="celular" id="celular" required>
 
-                <br><button type="submit">Enviar</button>
+                <button value="submit" type="submit">Enviar</button>
             </form>
         </div>
+        <p id="resposta-usuario"></p>
     </main>
 
     <footer>
@@ -60,3 +62,4 @@
     </footer>
 </body>
 </html>
+

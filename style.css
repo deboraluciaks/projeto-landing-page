@@ -7,7 +7,7 @@ body {
     background-color: #18212C;
 }
 
-h1, p {
+h1, p, a {
     font-family: 'Pathway Extreme';
     color: white;
 }
@@ -67,6 +67,29 @@ p {
     padding: 50px;
 }
 
+#botão-banner {
+    grid-column: 2;
+    grid-row: 2/2;
+    justify-self: end;
+    align-self: end;
+    padding: 10px;
+    margin-bottom: 10vh;
+    margin-right: 5vw;
+    background: linear-gradient(to right, #3B4F66 50%,  #8AB576 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .4s ease-in-out;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: #0f151b;
+}
+
+#botão-banner:hover {
+    transition: all .4s ease-out;
+    color: #8AB576;
+    background-position: left bottom;
+}
+
 /*SEGURO DE VIDA*/
 
 .seguro-vida {
@@ -118,8 +141,8 @@ p {
 
 .formulario {
     text-align: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,6 +184,15 @@ form button {
 
 form button:hover {
     background-color: #0f151b;
+}
+
+#resposta-usuario {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10vh;
 }
 
 footer {
