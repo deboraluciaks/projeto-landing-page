@@ -1,16 +1,3 @@
-let botãoBanner = document.getElementById("botão-banner");
-
-
-function botãoScroll () {
-    
-}
-
-
-
-
-
-
-
 /* CÓDIGO ANTIGO   
 percebi que por mais que esse código funcionasse, ele precisava do eventListener para a mensagem não aparecer caso os campos estivessem vazios.
 
