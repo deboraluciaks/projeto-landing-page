@@ -95,7 +95,7 @@ p {
 /*SEGURO DE VIDA*/
 
 .seguro-vida {
-    background-image: url(horse.png);
+    background-image: url(imgs/horse.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -240,7 +240,7 @@ footer {
     }
 
     .principal {
-        background-image: url(principal.png);
+        background-image: url(imgs/principal.png);
         padding: 100px;
         display: flex;
         align-items: center;
@@ -265,7 +265,7 @@ footer {
     }
     
     .seguro-vida {
-        background-image: url(horse.png);
+        background-image: url(imgs/horse.png);
         background-repeat: no-repeat;
         background-size: cover;
         height: 70vh;
@@ -291,7 +291,7 @@ footer {
     }
 
     .seguro-carro {
-        background-image: url(carro-respons.png);
+        background-image: url(imgs/carro-respons.png);
         background-size: 45%;
         background-position: left;
         background-repeat: no-repeat;
@@ -332,7 +332,7 @@ footer {
 @media screen and (max-width : 480px) {
     
     .principal {
-        background-image: url(principal.png);
+        background-image: url(imgs/principal.png);
         padding: 80px;
         display: flex;
         align-items: center;
@@ -364,7 +364,7 @@ footer {
     }
 
     .seguro-carro {
-        background-image: url(carro-respons.png);
+        background-image: url(imgs/carro-respons.png);
         background-size: 80%;
         background-repeat: no-repeat;
         margin-top: 90px;
